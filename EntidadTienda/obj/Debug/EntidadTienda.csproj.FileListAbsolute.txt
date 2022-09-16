@@ -1,0 +1,6 @@
+C:\Users\HP\source\repos\Tienda\EntidadTienda\bin\Debug\EntidadTienda.dll
+C:\Users\HP\source\repos\Tienda\EntidadTienda\bin\Debug\EntidadTienda.pdb
+C:\Users\HP\source\repos\Tienda\EntidadTienda\obj\Debug\EntidadTienda.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Tienda\EntidadTienda\obj\Debug\EntidadTienda.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Tienda\EntidadTienda\obj\Debug\EntidadTienda.dll
+C:\Users\HP\source\repos\Tienda\EntidadTienda\obj\Debug\EntidadTienda.pdb
