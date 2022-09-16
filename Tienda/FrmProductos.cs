@@ -15,7 +15,7 @@ namespace Tienda
     {
         ManejadorProductos mp;
         public static Productos
-            productos = new Productos(0, "", "","");
+            productos = new Productos(0, "", "","","");
         public FrmProductos()
         {
             InitializeComponent();
@@ -25,6 +25,7 @@ namespace Tienda
                 txtNombre.Text = productos.Nombre;
                 txtDescripcion.Text = productos.Descripcion;
                 txtPrecio.Text = productos.Precio;
+                txtProveedor.Text = productos.Proveedor;
             }
         }
 
@@ -32,7 +33,7 @@ namespace Tienda
         {
             mp.Guardar(new Productos(productos.IdProducto
                 , txtNombre.Text,
-                txtDescripcion.Text,txtPrecio.Text
+                txtDescripcion.Text,txtPrecio.Text, txtProveedor.Text
                 ));
             Close();
         }
