@@ -20,7 +20,7 @@ namespace AccesoTienda
         public void Guardar(dynamic Entidad)
         {
             b.Comando(string.Format("call  p_insertarProducto({0},'{1}','{2}','{3}')", Entidad.IdProducto, Entidad.Nombre,
-                 Entidad.Descripcion,Entidad.Precio));
+                 Entidad.Descripcion,Entidad.Precio,Entidad.Proveedores));
         }
 
         public DataSet Mostrar(string filtro)
