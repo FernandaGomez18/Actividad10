@@ -15,7 +15,7 @@ namespace Tienda
     {
         ManejadorProductos mp;
         public static Productos
-            productos = new Productos(0, "", "","");
+            productos = new Productos(0, "", "","","");
         public FrmProductos()
         {
             InitializeComponent();

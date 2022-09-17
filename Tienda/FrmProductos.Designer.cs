@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtDescripcion = new System.Windows.Forms.TextBox();
             this.txtPrecio = new System.Windows.Forms.TextBox();
@@ -50,15 +50,6 @@
             this.panel1.Size = new System.Drawing.Size(384, 42);
             this.panel1.TabIndex = 0;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 58);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Nombre";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -69,12 +60,22 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "PRODUCTOS";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 58);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(44, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Nombre";
+            // 
             // txtNombre
             // 
             this.txtNombre.Location = new System.Drawing.Point(62, 55);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(278, 21);
             this.txtNombre.TabIndex = 2;
+            this.txtNombre.Text = "Yogurt";
             // 
             // txtDescripcion
             // 
@@ -83,6 +84,7 @@
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(339, 79);
             this.txtDescripcion.TabIndex = 3;
+            this.txtDescripcion.Text = "sabor durazno";
             // 
             // txtPrecio
             // 
@@ -90,6 +92,7 @@
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(140, 21);
             this.txtPrecio.TabIndex = 4;
+            this.txtPrecio.Text = "12";
             // 
             // label3
             // 
