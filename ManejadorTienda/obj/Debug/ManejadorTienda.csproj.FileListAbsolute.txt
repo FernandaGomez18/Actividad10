@@ -1,7 +1,6 @@
 C:\Users\HP\source\repos\Tienda\ManejadorTienda\bin\Debug\ManejadorTienda.dll
 C:\Users\HP\source\repos\Tienda\ManejadorTienda\bin\Debug\ManejadorTienda.pdb
 C:\Users\HP\source\repos\Tienda\ManejadorTienda\bin\Debug\AccesoTienda.dll
-C:\Users\HP\source\repos\Tienda\ManejadorTienda\bin\Debug\Crud.dll
 C:\Users\HP\source\repos\Tienda\ManejadorTienda\bin\Debug\EntidadTienda.dll
 C:\Users\HP\source\repos\Tienda\ManejadorTienda\bin\Debug\ConectarBd.dll
 C:\Users\HP\source\repos\Tienda\ManejadorTienda\bin\Debug\AccesoTienda.pdb

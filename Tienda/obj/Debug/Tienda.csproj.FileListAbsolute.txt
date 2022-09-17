@@ -39,3 +39,4 @@ C:\Users\HP\source\repos\Tienda\Tienda\bin\Debug\K4os.Compression.LZ4.xml
 C:\Users\HP\source\repos\Tienda\Tienda\bin\Debug\K4os.Hash.xxHash.xml
 C:\Users\HP\source\repos\Tienda\Tienda\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\HP\source\repos\Tienda\Tienda\obj\Debug\Tienda.exe.config
+C:\Users\HP\source\repos\Tienda\Tienda\obj\Debug\Tienda.FrmProductoAdd.resources

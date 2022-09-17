@@ -12,7 +12,7 @@ namespace Tienda
         static void Main()
         {
             Application.EnableVisualStyles();
-            Application.Run(new FrmProductos());
+            Application.Run(new FrmProductoAdd());
         }
     }
 }

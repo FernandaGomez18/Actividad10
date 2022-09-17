@@ -14,27 +14,31 @@ namespace Tienda
     public partial class FrmProductos : Form
     {
         ManejadorProductos mp;
-        public static Productos
-            productos = new Productos(0, "", "","");
+     
         public FrmProductos()
         {
             InitializeComponent();
             mp = new ManejadorProductos();
-            if(productos.IdProducto>0)
+            if(FrmProductoAdd.producto.IdProducto>0)
             {
-                txtNombre.Text = productos.Nombre;
-                txtDescripcion.Text = productos.Descripcion;
-                txtPrecio.Text = productos.Precio;
+                txtNombre.Text =FrmProductoAdd.producto.Nombre;
+                txtDescripcion.Text = FrmProductoAdd.producto.Descripcion;
+                txtPrecio.Text = FrmProductoAdd.producto.Precio;
             }
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            mp.Guardar(new Productos(productos.IdProducto
+            mp.Guardar(new Productos(FrmProductoAdd.producto.IdProducto
                 , txtNombre.Text,
                 txtDescripcion.Text,txtPrecio.Text
                 ));
             Close();
+        }
+       
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
